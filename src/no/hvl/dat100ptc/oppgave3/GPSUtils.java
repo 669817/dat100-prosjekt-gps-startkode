@@ -119,11 +119,11 @@ public class GPSUtils {
 
 		String str;
 
-		// TODO - START
-
-		throw new UnsupportedOperationException(TODO.method());
-
-		// TODO - SLUTT
-
+		d = Math.round(d*100) ;
+		d = d/100;
+			
+		str = "      " + d;
+		
+		return str;
 	}
 }
